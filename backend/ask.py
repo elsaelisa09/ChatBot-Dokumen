@@ -43,7 +43,7 @@ model = SentenceTransformer("all-MiniLM-L6-v2")
 # === Setup OpenAI Client untuk DeepSeek Chat V3 ===
 client = OpenAI(
     base_url=os.getenv("OPENAI_BASE_URL", "https://openrouter.ai/api/v1"),
-    api_key=os.getenv("OPENAI_API_KEY", "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"),
+    api_key=os.getenv("OPENAI_API_KEY", "Your API key here"),
     timeout=30.0  # Tambah timeout
 )
 
