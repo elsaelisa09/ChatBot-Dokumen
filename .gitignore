@@ -1,0 +1,141 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+*.log
+*.tmp
+temp/
+cache/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Node modules (frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# AI/ML Model files and large data
+*.pkl
+*.faiss
+*.model
+*.bin
+*.joblib
+*.h5
+*.hdf5
+doc_chunks.pkl
+doc_index.faiss
+
+# Storage files (but keep structure)
+backend/storage/uploads/*.pdf
+backend/storage/cache/*
+backend/storage/index/*.bin
+backend/storage/index/*.pkl
+backend/storage/index/*.json
+
+# Batch files for local development
+start_*.bat
+
+# Large PDF files directory (uncomment if you don't want to track PDFs)
+# backend/pdf/*.pdf
+
+# Additional Python ignores
+*.egg
+MANIFEST
+.installed.cfg
+wheels/
+share/python-wheels/
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+
+# Additional Node.js ignores
+.pnpm-debug.log*
+.yarn-integrity
+.parcel-cache
+.cache
+.next
+out
+.nuxt
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.temp
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
