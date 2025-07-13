@@ -2,6 +2,8 @@
 
 DocumentAI is an advanced system that leverages AI to analyze and answer questions about PDF documents using hybrid retrieval technology (BM25 + FAISS semantic search).
 
+![Screenshot](frontend/public/scheenshoot.png)
+
 ## Features
 
 ### Frontend
@@ -76,11 +78,7 @@ Use the API or frontend interface to ask questions like:
 - "Summarize document Akarsana Fujiati"
 - "What is the agreement date for document Balijan Nugroho?"
 
-## Visuals
 
-### Screenshots
-
-![Screenshot](frontend/public/scheenshoot.png)
 
 ### Process Visualization
 
