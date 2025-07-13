@@ -1,0 +1,9 @@
+@echo off
+echo Starting Backend Server...
+echo.
+echo Activating virtual environment...
+call .\venv\Scripts\activate.bat
+echo.
+echo Starting FastAPI server...
+python main.py
+pause

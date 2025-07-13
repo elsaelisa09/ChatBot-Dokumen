@@ -1,0 +1,46 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment folders
+venv/
+.env/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled files
+*.o
+*.so
+*.out
+
+# Ignore PDF files in the backend/pdf folder
+backend/pdf/*.pdf
+
+# Ignore uploads folder
+backend/uploads/
+
+# Ignore node_modules folder
+frontend/node_modules/
+
+# Ignore build artifacts
+frontend/dist/
+frontend/.next/
+
+# Ignore lock files
+frontend/bun.lockb
+
+# Ignore public folder desktop.ini
+frontend/public/desktop.ini

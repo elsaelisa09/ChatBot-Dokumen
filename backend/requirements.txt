@@ -1,0 +1,41 @@
+<<<<<<< HEAD
+fastapi
+uvicorn
+python-multipart
+aiofiles
+PyMuPDF
+pytesseract
+sentence-transformers
+faiss-cpu
+nltk
+scikit-learn
+numpy
+pillow
+python-dotenv
+requests
+=======
+# FastAPI dependencies
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.19
+pydantic==2.10.3
+
+# Existing dependencies from ask.py
+faiss-cpu==1.9.0
+sentence-transformers==3.3.1
+openai==1.55.3
+spacy==3.8.2
+nltk==3.9.1
+rank-bm25==0.2.2
+numpy==2.0.2
+
+# PDF processing
+PyMuPDF==1.24.14
+
+# Additional utilities
+python-dotenv==1.0.1
+pathlib
+
+# UUID for task IDs (built-in, no need to install)
+# Threading for background tasks (built-in, no need to install)
+>>>>>>> 07eee374 (Update md)
